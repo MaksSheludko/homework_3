@@ -1,0 +1,110 @@
+@import url("..//css/nullstyle.css");
+@import url("..//css/fonts.css");
+
+body {
+   background-color: #f0f0f0;
+   font-size: 16px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+nav ul {
+   display: flex;
+   justify-content: space-around;
+   margin: 0 auto;
+   padding: 20px;
+}
+@media (max-width: 767px) {
+   nav ul {
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+nav li {
+   font-family: Spectral;
+   line-height: 40px;
+   float: left;
+   text-align: center;
+   width: 150px;
+   font-size: 25px;
+   color: white;
+}
+@media (max-width: 767px) {
+   nav li {
+      padding: 5px;
+   }
+}
+
+img {
+   max-width: 100%;
+}
+
+#main {
+   font-size: 20px;
+   text-transform: uppercase;
+   color: white;
+   background-color: #009186;
+   height: 180x;
+}
+
+.wrapper {
+   max-width: 1600px;
+   margin: 0px auto;
+   padding: 7px;
+   background-color: white;
+}
+
+.title-header {
+   font-family: Spectral;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 700;
+}
+
+.content__item-one {
+   font-size: 14px;
+}
+.content__title {
+   padding: 0px 0px 10px 0px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.content__text p {
+   padding: 0px 0px 10px 0px;
+   color: red;
+}
+.content__image {
+   padding: 0px 0px 3px 0px;
+}
+.footer {
+   text-align: center;
+   font-family: Lato;
+   font-size: 30px;
+   font-weight: bold;
+   margin: 10px;
+}
+.footer__title {
+   margin: 10px;
+   text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+   .footer {
+      font-size: 20px;
+   }
+}
+
+.footer__text span {
+   display: inline-block;
+   display: flex;
+   justify-content: center;
+   background: #d9ffad;
+   color: green;
+   padding: 15px;
+   margin: 0px auto;
+   text-align: center;
+   text-decoration: underline;
+}
+
+.footer__text h3 {
+   padding: 5px 0px 5px 0px;
+   text-align: center;
+}
